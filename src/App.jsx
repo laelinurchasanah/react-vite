@@ -1,11 +1,7 @@
-import './App.css'
-
-function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-      <h4>Ini My Vite</h4>
-    </div>
-  );
- }
- export default App;
+import FirstState from "./components/FirstState"
+function App(){
+  return <div>
+    <FirstState/>
+  </div>
+}
+export default App;
